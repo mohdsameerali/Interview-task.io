@@ -1,0 +1,44 @@
+
+html{
+  font-size: 15px;
+}
+.box{
+    height:100vh;
+    background-color: rebeccapurple;
+    overflow:auto;
+   
+}
+
+
+.card {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .self-text {
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .url {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .score {
+    font-weight: bold;
+    color: green;
+  }
+  
+  @media only screen and  (max-width: 600px) {
+    html {
+      font-size: 13px;
+    }
+  }
